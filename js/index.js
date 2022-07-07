@@ -12,10 +12,12 @@ function showPassword() {
         eyeSlash.style.display = 'block';
         fieldPassword.type = 'password';
     }
-};
+}
 
-document.getElementById('btn-login').addEventListener('click', function(e)) {
+document.getElementById('btn-login').addEventListener('click', function(e){
     e.preventDefault();
     alert('Logado');
-}
+})
+
+
 
